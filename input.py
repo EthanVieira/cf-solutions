@@ -12,5 +12,5 @@ def input_str():
     s = input()
     return(list(s[:len(s) - 1]))
 
-def input_multiplie_ints():
+def input_multiple_ints():
     return(map(int,input().split()))
