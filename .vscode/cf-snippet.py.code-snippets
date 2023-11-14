@@ -36,7 +36,7 @@
 			  "\treturn(map(int,input().split()))\n",
 		  
 		  "def main():",
-			  "\tsys.stdout.write(str(n) + \"\n\")\n",
+			  "\tsys.stdout.write(str(n) + \"\\n\")\n",
 		  
 		  "if __name__ == \"__main__\":",
 			  "\tmain()",
