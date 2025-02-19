@@ -14,3 +14,12 @@ def input_str():
 
 def input_multiple_ints():
     return(map(int,input().split()))
+
+def main():
+    s = input().rstrip()
+    s2 = s.split("+");
+    s2.sort();
+    sys.stdout.write("+".join(s2));
+
+if __name__ == "__main__":
+    main()
