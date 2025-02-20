@@ -20,7 +20,11 @@ def input_multiple_ints():
     return(map(int,input().split()))
 
 def main():
-    output("")
+    s = set(input_str())
+    if (len(s) % 2 == 0):
+        output("CHAT WITH HER!")
+    else:
+        output("IGNORE HIM!")
 
 if __name__ == "__main__":
     main()
